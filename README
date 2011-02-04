@@ -3,5 +3,9 @@ Ssssh - the anti-cretin Chrome extension
 
 Still working on it
 
-TODO - make a nice self executing and disappearing function
+To install: open up Chrome, find Extensions in the Tools menu (in the Spanner menu on the Mac). Expand the Developer pane, click on Install Unpacked... button and navigate to the directory you've expanded the source in. 
+
+Use: go to the Guardian. If the script is working, an icon of Zippy will appear in your URL bar. All comments will be replaced by Zippy quotes automatically, and will do do until the Guardian changes the comment class name in teh HTML.
+
+TODO - make a nice self executing and disappearing function - DONE
 Find some other quote base
