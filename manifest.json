@@ -1,0 +1,26 @@
+{
+  "name" : "Ssssh",
+  "version" : "0.1",
+  "description" : "Replaces ignorant jabber on the Guardian cmment pages with Zippy the Pinhead quotes",
+  "background_page" : "background.html",
+  "page_action" :
+  {
+    "default_icon" : "zippy-19.png",
+    "default_title" : "Zippyfied for your viewing pleasure"
+  },
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js" : ["contentscript.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "icons" : {
+    "48" : "zippy-48.png",
+    "128" : "zippy-128.png"
+  }
+}
