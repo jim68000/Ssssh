@@ -1,7 +1,7 @@
 {
   "name" : "Ssssh",
   "version" : "0.1",
-  "description" : "Replaces ignorant jabber on the Guardian cmment pages with Zippy the Pinhead quotes",
+  "description" : "Replaces jabber on the Guardian comment pages with Zippy the Pinhead quotes",
   "background_page" : "background.html",
   "page_action" :
   {
